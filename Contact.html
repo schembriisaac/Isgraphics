@@ -20,30 +20,37 @@
             <div class="content">
 
 
-    <h1>Contact Us!</h1>
-
-    <form id="form1" action="result_page.html" method="get">
-        <div style="margin-bottom:8px">
-            <label for="text">Your name & surname</label><br>
-            <input required type="text" id="text" name="text" value="Some text">
-        </div>
-        
-    
-
-       
-       
-
-        
-
-      
-
-        <div style="margin-bottom:8px">
-            <label for="textarea">Text area</label><br>
-            <textarea cols="57" rows="5" name="textarea" id="textarea">I would like to inquire.....</textarea>
-        </div>
-
-        <div>
-            <button type="submit" name="submit">Submit</button>
-        </div>
-    </div>
+                <head>
+                    
+                    <style>
+                      div {
+                        margin-bottom: 10px;
+                        align-content: stretch;
+                      }
+                    </style>
+                  </head>
+                  <body>
+                    <h2>Give Feedback to Our Website.</h2>
+                    <form action="mailto:isgraphics012@gmail.com" method="get" enctype="text/plain">
+                      <div>
+                        <label for="name">Name:
+                          <input type="text" name="name" id="name" />
+                        </label>
+                      </div>
+                      <div>
+                        <label for="email">Email:
+                          <input type="text" name="email" id="email" />
+                        </label>
+                      </div>
+                      <div>
+                        <label>Comments:</label>
+                        <br />
+                        <textarea name="comments" rows="12" cols="35">Contact Us!</textarea>
+                      </div>
+                      <div>
+                        <input type="submit" name="submit" value="Send" />
+                        <input type="reset" name="reset" value="Clear" />
+                      </div>
+                    </form>
+                  </body>
     </form>
